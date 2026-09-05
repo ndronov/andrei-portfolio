@@ -4,7 +4,6 @@
     margin: 0 auto;
     min-height: 100svh;
     box-sizing: border-box;
-    /*padding: 50px;*/
     background: azure;
 }
 
@@ -36,4 +35,41 @@
     background: green;
     flex: 1;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.slide {
+    background: pink;
+}
+
+.label {
+    font-size: 16px;
+    margin: 0.5em 0 0 0;
+}
+
+.magnum-bikes {
+    width: 800px;
+}
+
+.compulse {
+    width: 800px;
+}
+
+.slides {
+    display: flex;
+    background: pink;
+    justify-content: space-between;
+
+}
+
+.wagely {
+    background: yellow;
+    width: 387.5px;
+}
+
+.tresor {
+    background: orange;
+    width: 387.5px;
 }
