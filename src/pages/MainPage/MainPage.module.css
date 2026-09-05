@@ -1,0 +1,36 @@
+.container {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 100svh;
+    box-sizing: border-box;
+    /*padding: 50px;*/
+    background: azure;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    /*padding: 50px;*/
+    background: red;
+}
+
+.designer {
+    background: blueviolet;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: calc(50px + 280px + 50px);
+    box-sizing: border-box;
+}
+
+.photo {
+    width: 280px;
+    height: 280px;
+}
+
+.projects {
+    background: green;
+    flex: 1;
+    padding: 50px;
+}
