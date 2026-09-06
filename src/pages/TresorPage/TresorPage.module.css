@@ -1,3 +1,92 @@
 .container {
-    contain: content;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 100svh;
+    background: azure;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background: pink;
+    align-items: center;
+}
+
+.description {
+    width: 378px;
+    background: yellow;
+}
+
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.text {
+    margin-top: 1em;
+}
+
+.slides {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    background: blue;
+    margin: 48px 48px 0 48px;
+}
+
+.slide {
+    width: 580px;
+    background: red;
+}
+
+.slide5 {
+    width: 782px;
+    background: red;
+    margin-top: 48px;
+}
+
+.slide6 {
+    width: 982px;
+    background: red;
+    margin: 48px 0;
+}
+
+.vertical-slides {
+    width: 782px;
+    display: flex;
+    gap: 24px;
+    margin: 48px 0;
+}
+
+.vertical-slide {
+    width: 378px;
+}
+
+.slide9 {
+    width: 782px;
+    background: red;
+    margin-top: 48px;
+}
+
+.slide10 {
+    width: 985px;
+    background: red;
+    margin-top: 48px;
+}
+
+.slide11 {
+    width: 782px;
+    background: red;
+    margin-top: 48px;
+}
+
+.slide12 {
+    width: 985px;
+    background: red;
+    margin-top: 48px;
 }

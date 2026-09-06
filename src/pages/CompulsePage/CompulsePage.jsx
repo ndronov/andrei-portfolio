@@ -72,7 +72,7 @@ export function CompulsePage() {
 
           <h3 className={styles.subtitle}>Решение</h3>
 
-          <span>
+          <div>
             <p>
               Собрав вместе менеджеров по продуктам, я смог определить ключевые сценарии для всех продуктов и разработать
               систему, которая учитывала бы их различные потребности.
@@ -81,7 +81,7 @@ export function CompulsePage() {
             <p className={styles.text}>
               В основе лежит одностраничный компонент, которому теперь соответствуют все 150 с лишним экранов всех продуктов.
             </p>
-          </span>
+          </div>
         </div>
 
         <img src={compulse5} alt="Compulse5" className={clsx(styles.bigSlide, styles.gap)} />
