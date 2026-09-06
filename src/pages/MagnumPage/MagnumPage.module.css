@@ -1,3 +1,61 @@
 .container {
-    contain: content;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 100svh;
+    background: azure;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background: pink;
+    align-items: center;
+}
+
+.description {
+    width: 378px;
+    background: yellow;
+}
+
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.text {
+    margin-top: 1em;
+}
+
+.slide1 {
+    width: 780px;
+    background: red;
+    margin-top: 48px;
+}
+
+.big-slide {
+    width: 100%;
+    background: red;
+}
+
+.gap {
+    margin-top: 48px;
+}
+
+.columns {
+    background: red;
+    display: flex;
+    margin-top: 48px;
+    margin-left: 48px;
+    gap: 24px;
+    align-self: flex-start;
+}
+
+.column {
+    width: 380px;
+    background: red;
 }
