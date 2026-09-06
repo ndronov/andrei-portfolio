@@ -1,3 +1,5 @@
+import clsx from 'clsx'
+
 import compulse1 from '../../assets/compulse1.webp'
 import compulse2 from '../../assets/compulse2.webp'
 import compulse3 from '../../assets/compulse3.webp'
@@ -82,8 +84,8 @@ export function CompulsePage() {
           </span>
         </div>
 
-        <img src={compulse5} alt="Compulse5" className={styles.bigSlide} />
-        <img src={compulse6} alt="Compulse6" className={styles.bigSlide} />
+        <img src={compulse5} alt="Compulse5" className={clsx(styles.bigSlide, styles.gap)} />
+        <img src={compulse6} alt="Compulse6" className={clsx(styles.bigSlide, styles.gap)} />
         <img src={compulse7} alt="Compulse7" className={styles.bigSlide} />
         <img src={compulse8} alt="Compulse8" className={styles.bigSlide} />
         <img src={compulse9} alt="Compulse9" className={styles.bigSlide} />
