@@ -3,19 +3,16 @@
     max-width: 100%;
     margin: 0 auto;
     min-height: 100svh;
-    background: azure;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    background: pink;
     align-items: center;
 }
 
 .description {
     width: 378px;
-    background: yellow;
 }
 
 .title {
@@ -32,27 +29,27 @@
 }
 
 .slides {
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
-    background: blue;
     margin: 48px 48px 0 48px;
 }
 
 .slide {
     width: 580px;
-    background: red;
 }
 
 .slide5 {
     width: 782px;
-    background: red;
+    max-width: 100%;
     margin-top: 48px;
 }
 
 .slide6 {
     width: 982px;
-    background: red;
+    max-width: 100%;
     margin: 48px 0;
 }
 
@@ -69,24 +66,24 @@
 
 .slide9 {
     width: 782px;
-    background: red;
+    max-width: 100%;
     margin-top: 48px;
 }
 
 .slide10 {
     width: 985px;
-    background: red;
+    max-width: 100%;
     margin-top: 48px;
 }
 
 .slide11 {
     width: 782px;
-    background: red;
+    max-width: 100%;
     margin-top: 48px;
 }
 
 .slide12 {
     width: 985px;
-    background: red;
+    max-width: 100%;
     margin-top: 48px;
 }

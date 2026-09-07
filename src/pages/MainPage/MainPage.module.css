@@ -3,17 +3,14 @@
     max-width: 100%;
     margin: 0 auto;
     min-height: 100svh;
-    background: azure;
 }
 
 .main {
     display: flex;
     flex-direction: row;
-    background: red;
 }
 
 .designer {
-    background: blueviolet;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -31,16 +28,11 @@
 }
 
 .projects {
-    background: green;
     flex: 1;
     padding: 50px;
     display: flex;
     flex-direction: column;
     gap: 50px;
-}
-
-.slide {
-    background: pink;
 }
 
 .label {
@@ -58,17 +50,13 @@
 
 .slides {
     display: flex;
-    background: pink;
     justify-content: space-between;
-
 }
 
 .wagely {
-    background: yellow;
     width: 387.5px;
 }
 
 .tresor {
-    background: orange;
     width: 387.5px;
 }

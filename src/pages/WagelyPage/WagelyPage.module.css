@@ -3,19 +3,16 @@
     max-width: 100%;
     margin: 0 auto;
     min-height: 100svh;
-    background: azure;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    background: pink;
     align-items: center;
 }
 
 .description {
     width: 378px;
-    background: yellow;
 }
 
 .title {
@@ -33,12 +30,11 @@
 
 .slide {
     width: 982px;
-    background: red;
+    max-width: 100%;
 }
 
 .big-slide {
     width: 100%;
-    background: red;
 }
 
 .gap {
@@ -47,7 +43,6 @@
 
 .vertical-slide-with-text {
     width: 782px;
-    background: red;
     display: flex;
     margin-top: 48px;
     gap: 24px;
@@ -55,5 +50,4 @@
 
 .vertical-slide {
     width: 380px;
-    background: red;
 }

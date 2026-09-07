@@ -3,19 +3,16 @@
     max-width: 100%;
     margin: 0 auto;
     min-height: 100svh;
-    background: azure;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    background: pink;
     align-items: center;
 }
 
 .description {
     width: 378px;
-    background: yellow;
 }
 
 .title {
@@ -33,13 +30,12 @@
 
 .slide1 {
     width: 780px;
-    background: red;
+    max-width: 100%;
     margin-top: 48px;
 }
 
 .big-slide {
     width: 100%;
-    background: red;
 }
 
 .gap {
@@ -47,7 +43,6 @@
 }
 
 .columns {
-    background: red;
     display: flex;
     margin-top: 48px;
     margin-left: 48px;
@@ -57,5 +52,4 @@
 
 .column {
     width: 380px;
-    background: red;
 }

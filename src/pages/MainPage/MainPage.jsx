@@ -25,14 +25,14 @@ export function MainPage() {
 
         <div className={styles.projects}>
           <Link to="/magnum">
-            <div className={styles.slide}>
+            <div>
               <img src={magnumBikes} alt="Magnum Bikes" className={styles.magnumBikes} />
               <h3 className={styles.label}>Magnum Bikes</h3>
             </div>
           </Link>
 
           <Link to="/compulse">
-            <div className={styles.slide}>
+            <div>
               <img src={compulse} alt="Compulse" className={styles.compulse} />
               <h3 className={styles.label}>Compulse</h3>
             </div>
@@ -41,14 +41,14 @@ export function MainPage() {
           <div className={styles.slides}>
 
             <Link to="/wagely">
-              <div className={styles.slide}>
+              <div>
                 <img src={wagely} alt="Wagely" className={styles.wagely} />
                 <h3 className={styles.label}>Wagely</h3>
               </div>
             </Link>
 
             <Link to="/tresor">
-              <div className={styles.slide}>
+              <div>
                 <img src={tresor} alt="Tresor" className={styles.tresor} />
                 <h3 className={styles.label}>Tresor</h3>
               </div>
